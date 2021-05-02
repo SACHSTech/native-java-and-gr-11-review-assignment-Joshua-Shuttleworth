@@ -4,14 +4,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Review1{
+    // "Throws IOException" for BufferedReader
     public static void main(String[] args) throws IOException{
+        // Varible declorations
         int monthNum, dayNum;
+        // Array containing month data
         int[] months={0,31,59,90,120,151,181,212,243,273,304,334};
+        // Defining BufferedReader
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // Asking for input
         System.out.print("Enter the month number: ");
+        // Getting input and storing in varible
         monthNum = Integer.parseInt(br.readLine());
+        // Asking for input
         System.out.print("Enter the day number: ");
+        // Getting input and storing in varible
         dayNum = Integer.parseInt(br.readLine());
+        // Outputting to terminal
         System.out.println(months[monthNum-1]+dayNum);
     }   
 }
