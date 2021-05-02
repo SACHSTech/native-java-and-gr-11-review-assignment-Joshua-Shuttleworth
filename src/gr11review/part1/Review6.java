@@ -16,8 +16,8 @@ public class Review6{
         // Loop while entered in not equal to 0
         while(entered!=0){
             // Asking for input
-            System.out.print("Enter the price for an item: ");
             // Getting input and storing in varible
+            System.out.print("Enter the price for an item: ");
             entered=Double.parseDouble(br.readLine());
             // Add entered to total
             total+=entered;

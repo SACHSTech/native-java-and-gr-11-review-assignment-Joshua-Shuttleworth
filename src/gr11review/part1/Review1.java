@@ -13,12 +13,10 @@ public class Review1{
         // Defining BufferedReader
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // Asking for input
+        // Getting input and storing in varible
         System.out.print("Enter the month number: ");
-        // Getting input and storing in varible
         monthNum = Integer.parseInt(br.readLine());
-        // Asking for input
         System.out.print("Enter the day number: ");
-        // Getting input and storing in varible
         dayNum = Integer.parseInt(br.readLine());
         // Outputting to terminal
         System.out.println(months[monthNum-1]+dayNum);

@@ -15,8 +15,8 @@ public class Review4{
         // Defining new DecimalFormat with a pattern of 0.00
         DecimalFormat df=new DecimalFormat("0.00");
         // Asking for input
-        System.out.print("How many items do you want to buy? ");
         // Getting input and storing in varible
+        System.out.print("How many items do you want to buy? ");
         N = Integer.parseInt(br.readLine());
         // Looping for N times
         for(int i=0;i<N;i++){
