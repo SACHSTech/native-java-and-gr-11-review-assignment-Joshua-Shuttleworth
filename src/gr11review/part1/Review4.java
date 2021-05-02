@@ -4,6 +4,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 
+/**
+* Create a program that asks the user how many items he/she would like to purchase. The program then
+* gets the prices for the items one by one. At the end of entering items, print out the total, the tax (13%)
+* and the grand total. Import and use the java.text.DecimalFormat class to output the information in currency format (0.00)
+* @author: J. Shuttleworth
+*/
+
 public class Review4{
     // "Throws IOException" for BufferedReader
     public static void main(String[] args) throws IOException{

@@ -3,6 +3,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+* Create a program that will input a sentence from the user and store it in a String variable called
+* theSentence. Use the String methods to compute the following about the sentence. Stats about the sentence:
+* @author: J. Shuttleworth
+*/
+
 public class Review7{
     // "Throws IOException" for BufferedReader
     public static void main(String[] args) throws IOException{

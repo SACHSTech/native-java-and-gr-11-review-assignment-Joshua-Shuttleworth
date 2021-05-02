@@ -3,6 +3,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+* Create a program that asks the user to enter a month number (1 = January, 2 = February etc.)
+* and day and then prints the day of the year. 
+* Assume that it is not a leap year.
+* @author: J. Shuttleworth
+*/
+
 public class Review1{
     // "Throws IOException" for BufferedReader
     public static void main(String[] args) throws IOException{

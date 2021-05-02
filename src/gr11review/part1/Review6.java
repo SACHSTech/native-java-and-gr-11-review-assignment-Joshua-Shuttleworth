@@ -4,6 +4,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 
+/**
+* Create a cash register program similar to the one above, except instead of prompting for the number
+* items, the user is able to keep entering item prices until the enter 0. Import and use the
+* @author: J. Shuttleworth
+*/
+
 public class Review6{
     // "Throws IOException" for BufferedReader
     public static void main(String[] args) throws IOException{

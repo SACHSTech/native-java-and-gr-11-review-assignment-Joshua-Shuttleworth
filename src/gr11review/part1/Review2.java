@@ -3,6 +3,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+* Create a program that prints out a statement of options. Allow the user to select an option and react
+* appropriately to the option selection using a switch case structure. The options should be as follows: 0 -
+* print a joke about your hair 1 - print a joke about your feet 2 - print a joke about your clothes 3 - print a
+* joke about your teacher. If an invalid option number is entered (i.e 4), output Invalid menu option.
+* @author: J. Shuttleworth
+*/
+
 public class Review2{
     // "Throws IOException" for BufferedReader
     public static void main(String[] args) throws IOException{

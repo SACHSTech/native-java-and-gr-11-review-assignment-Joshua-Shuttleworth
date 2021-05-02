@@ -3,6 +3,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+* Write a program that prompts for a yearly_amount, annual compound_interest_rate, and outputs
+* the number of years . For compound interest, the interest rate is applied to the existing amount after each year.
+* @author: J. Shuttleworth
+*/
+
 public class Review5{
     // "Throws IOException" for BufferedReader
     public static void main(String[] args) throws IOException{

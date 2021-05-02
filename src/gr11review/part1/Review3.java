@@ -1,5 +1,11 @@
 package gr11review.part1;
 
+/**
+* Create a program that prints the odd numbers from 20 to 100 and prints the numbers from 29 to 2 in
+* decreasing order. You will need to create two separate loops with a blank line between them.
+* @author: J. Shuttleworth
+*/
+
 public class Review3{
     public static void main(String[] args){
         // Loop that outputs every odd number from 20-100
