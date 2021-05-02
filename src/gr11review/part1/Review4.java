@@ -9,7 +9,7 @@ public class Review4{
         int N;
         double total=0;
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        String pattern="###,##0.00";
+        String pattern="0.00";
         DecimalFormat df=new DecimalFormat(pattern);
         System.out.print("How many items do you want to buy? ");
         N = Integer.parseInt(br.readLine());
