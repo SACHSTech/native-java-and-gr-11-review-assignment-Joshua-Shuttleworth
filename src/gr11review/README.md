@@ -1,5 +1,13 @@
 # Grade 11 Java Review
 
+## Instructions
+Program the solutions for each problem in their respective files found in the `src/gr11review/part1 directory`.  You are required to:
+* code your solutions in repl.it
+* commit and push your changes to github
+* use proper style conventions for variable names and comments.
+
+
+
 ## Part 1
 ### Review1.java - Decisions-if
 Create a program that asks the user to enter a month number (1 = January, 2 = February etc.) and day and then prints the day of the year. Assume that it is not a leap year.
@@ -13,13 +21,14 @@ Enter the day number: 14
 
 ### Review2.java - Decisions - switch/case
 Create a program that prints out a statement of options. Allow the user to select an option and react appropriately to the option selection using a switch case structure. The options should be as follows:
-0 - print an joke about your hair
+0 - print a joke about your hair
 1 - print a joke about your feet
-2 - print a joke about your clothes 3 - print a joke about your teacher.  If an invalid option number is entered (i.e `4`), output `Invalid menu option`.
+2 - print a joke about your clothes 
+3 - print a joke about your teacher.  If an invalid option number is entered (i.e `4`), output `Invalid menu option`.
 
 #### Sample Run
 ```
-0 - print an joke about your hair
+0 - print a joke about your hair
 1 - print a joke about your feet
 2 - print a joke about your clothes
 3 - print a joke about your teacher
@@ -67,11 +76,11 @@ Create a cash register program similar to the one above, except instead of promp
 
 #### Sample Run
 ```
-Enter the price for item 1: 2.50
-Enter the price for item 2: 3.99
-Enter the price for item 3: 6.99
-Enter the price for item 4: 7.99
-Enter the price for item 4: 0
+Enter the price for an item: 2.50
+Enter the price for an item: 3.99
+Enter the price for an item: 6.99
+Enter the price for an item: 7.99
+Enter the price for an item: 0
 Subtotal: $21.47
 Tax: $2.79
 Total: $24.26
@@ -84,6 +93,15 @@ Stats about the sentence:
 * There are # spaces in the sentence.
 * There are # letter a in the sentence.
 * Taking the odd numbered characters in the sentence produces the following string “---------“
+
+#### Sample Run
+```
+aaa bbb
+There are 7 characters in the sentence.
+There are 1 spaces in the sentence.
+There are 3 letter a in the sentence.
+----
+```
 
 ### Review8.java - Pre-defined methods - Random
 Create a program that simulates 1000 pulls of a slot machine, such that 3 random numbers (between 0 and 8) are generated for each pull.  Output the result of each pull on a single line (a space separating the 3 numbers) and the total count of the number times a triple (all 3 numbers equal) was pulled.
@@ -107,29 +125,4 @@ Create a program that simulates 1000 pulls of a slot machine, such that 3 random
 0 4 2
 3 0 0
 14
-```
-
-## Part 2
-For all of the programs below, create a `Utility.java` file that will contain all of your methods. For each question, create a separate main program that will run the method (or methods) you created.
-
-### Methods 1
-Create a method that for patterns like "zip" and "zap" in the string -- length-3, starting with 'z' and ending with 'p'. Return a string where for all such words, the middle letter is gone, so "zipXzap" yields "zpXzp".   
-**Signature** `public static String zipZap(String str)`
-
-#### Examples
-```
-zipZap("zipXzap") → "zpXzp"
-zipZap("zopzop") → "zpzp"
-zipZap("zzzopzop") → "zzzpzp"
-zipZap("zzzuzoz") → "zzzuzoz"    1
-```
-
-### Methods 2
-Given a string, return the sum of the numbers appearing in the string, ignoring all other characters. A number is a series of 1 or more digit chars in a row. (Note: Character.isDigit(char) tests if a char is one of the chars '0', '1', .. '9'. Integer.parseInt(string) converts a string to an int.)
-
-#### Examples
-```
-sumNumbers("abc123xyz") → 123
-sumNumbers("aa11b33") → 44
-sumNumbers("7 11") → 18
 ```
